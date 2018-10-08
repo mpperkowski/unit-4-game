@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="Candace Buchanan" content="YOUR_NAME">
+    <meta name="subject" content="HTML WEBPAGE TITLE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fight the Foot Clan</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" integrity="sha256-uHu2MAd1LvCOVEAhvMld4LpJi7dUGS7GVzvG/5B3hlo="
+        crossorigin="anonymous" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Anton|Assistant|Bangers|Cabin+Condensed" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row panel-body">
+            <div class="col-sm-12" id="audioControl">
+                <audio id="myAudio" controls autoplay="true" src="assets/images/Pokemon-theme.mp3" autostart="true"
+                    loop="true"></audio>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <div id="logodiv"><img src="assets/images/pkmnlogo.jpg" class="logo"></div>
+            <h1>Defeat Mewtwo!</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row" id="rulediv">
+                <div class="col-sm-9">
+                    <h2 id="titleRules">Instructions</h2>
+                    <p id="rules">
+                        Mewtwo strikes back, (we gotta go **** him up... we don't take **** from anybody) and is after
+                        Ash Ketchum and his Pokemon.
+                        <br>
+                        Each time you click on one of Ash's Pokemon, a specific amount of points will be added to your
+                        total score.
+                        <br>
+                        You can defeat Mewtwo by matching your total score to his number. You will lose the game if
+                        your total score goes above
+                        Mewtwo's number.
+                        <br>
+                        The value of each Pokemon is hidden from you until you click on one of them.
+                        <br>
+                        Each time this game starts, the values of each Pokemon will change.
+                        <br>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="assets/images/Mewtwo.png" id="shredder">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="container-fluid">
+                <div class="row" id="images1">
+                    <div class="col-sm-6">
+                        <img src="assets/images/Alolan-Raichu.jpg" class="crystalimg" id="one">
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="assets/images/Snorlax.jpg" class="crystalimg" id="two">
+                    </div>
+                </div>
+                <div class="row" id="images2">
+                    <div class="col-sm-6">
+                        <img src="assets/images/Red-Gyarados.png" class="crystalimg" id="three">
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="assets/images/Dragonite.png" class="crystalimg" id="four">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="panelStyle">
+            <div class="row panel-body">
+                <div class="col-sm-6">
+                    Number to match:
+                    <span id="number"></span>
+                </div>
+                <div class="col-sm-6">
+                    Your number:
+                    <span id="combined"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="panelStyle">
+            <div class="row panel-body">
+                <div class="col-sm-6">
+                    Wins:
+                    <span id="numberWins"></span>
+                </div>
+                <div class="col-sm-6">
+                    Losses:
+                    <span id="numberLosses"></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

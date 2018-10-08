@@ -1,0 +1,145 @@
+body {
+    background-image: url("../images/background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.jumbotron {
+    background: transparent;
+    margin-bottom: 0px;
+    color: white;
+    padding-bottom: 0px;
+
+}
+
+#logodiv {
+    text-align: center;
+}
+
+.logo {
+    height: auto;
+    width: 38em;
+    padding: 20px;
+    text-align: center;
+}
+
+#rulediv {
+    background: #97CB57;
+    border-radius: 30px;
+}
+
+#titleRules {
+    background: transparent;
+    padding: 20px 20px 0 20px;
+}
+
+#shredder {
+    height: 32em;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    color: white;
+    text-align: center;
+    z-index: initial;
+    margin-top: -20px;
+    text-shadow: -4px 0 #F3152B, 0 1px #F3152B, 1px 0 #F3152B, 0 -1px #F3152B;
+}
+
+.panel-body {
+    background: transparent;
+}
+
+#rules {
+    font-family: 'Assistant', sans-serif;
+    font-size: 22px;
+    padding:0 20px 20px 20px;
+    margin-bottom: 0px;
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#panelStyle {
+    background: #E69321;
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+}
+
+.panel-body {
+    font-size: 24px;
+}
+
+#images1 {
+    text-align: center;
+    background: transparent;
+    padding: 0;
+    margin: 10px;
+}
+
+#images2 {
+    text-align: center;
+    background: transparent;
+    padding: 0;
+    margin: 10px;
+}
+
+.crystalimg {
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.crystalimg:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#one {
+    background: #D64756;
+    margin: 15px;
+    height: 10em;
+    width: 15em;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+#two {
+    background: #2180B3;
+    margin: 15px;
+    height: 10em;
+    width: 15em;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+#three {
+    background: #904FB4;
+    margin: 15px;
+    height: 10em;
+    width: 15em;
+    padding-left: 39px;
+    padding-right: 39px;
+}
+
+#four {
+    background: #F05B3D;
+    margin: 15px;
+    height: 10em;
+    width: 15em;
+}
+
+#audioControl {
+    text-align: center;
+}
